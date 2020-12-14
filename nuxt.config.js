@@ -45,7 +45,12 @@ export default {
       autoRegister: true,
       enabled: true,
       offline: true,
-      offlineAssets: ['/_nuxt/img/1.jpg', '/_nuxt/img/2.jpeg', '/_nuxt/img/3.jpg']
+      offlineAssets: ['/_nuxt/img/1.jpg', '/_nuxt/img/2.jpeg', '/_nuxt/img/3.jpg'],
+      runtimeCaching: [
+        {
+          urlPattern: '/*'
+        },
+      ]
     }
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
