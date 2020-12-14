@@ -47,11 +47,14 @@ export default {
       offline: true,
       preCaching: [
         '/_nuxt/img/*'
-      ]
-      // offlineAssets: ['/1.jpg', '/2.jpeg', '/3.jpg', '/4.jpg']
+      ],
+      offlineAssets: ['/_nuxt/img/1.jpg', '/_nuxt/img/2.jpeg', '/_nuxt/img/3.jpg']
     }
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    filenames: {
+      img: ({ isDev }) => isDev ? '[path][name].[ext]' : 'img/[name].[ext]',
+    }
   }
 }
