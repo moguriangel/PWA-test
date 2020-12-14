@@ -45,9 +45,6 @@ export default {
       autoRegister: true,
       enabled: true,
       offline: true,
-      preCaching: [
-        '/_nuxt/img/*'
-      ],
       offlineAssets: ['/_nuxt/img/1.jpg', '/_nuxt/img/2.jpeg', '/_nuxt/img/3.jpg']
     }
   },
