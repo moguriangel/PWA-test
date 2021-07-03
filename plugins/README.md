@@ -5,3 +5,4 @@ This directory contains Javascript plugins that you want to run before mounting 
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/plugins).
 Ciao pippo
+Ciao pippo
