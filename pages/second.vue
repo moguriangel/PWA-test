@@ -1,5 +1,6 @@
 <template>
   <div>
+    different test
     <img src="../static/2.jpeg" alt="" width="400" />
     <NuxtLink to="/third">Third</NuxtLink>
   </div>
